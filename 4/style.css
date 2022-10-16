@@ -13,7 +13,7 @@ button:nth-child(n+2):nth-child(-n+6) {
 
 /* Stretch */
 /*  transition: [transition-property] [transition-duration]
-                [transition-timing-function] [transition-delay]; */
+                [transition-timing-function] [transition-delay]; 
 button {
   height: 35px;
   width: 70px;
@@ -30,4 +30,42 @@ button:hover {
   padding: 20px;
   height: 70px;
   width: 180px;
+}*/
+
+/* Shadow */
+button {
+  background-color: green;
+  border: none;
+  color: white;
+  box-shadow: 3px 3px 3px 1px rgb(0, 0, 0, 0.8);
+  transition: box shadow 0.4s;
+
 }
+
+button:active {
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+
+/* Margin & Padding 
+button {
+
+  background-color: green;
+  border: none;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  transition: padding 0.15s, margin 0.15s;
+  color: white;
+}
+
+button:hover {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}*/
