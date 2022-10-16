@@ -1,0 +1,33 @@
+/* Pagination
+
+button:first-child,
+button:last-child {
+  padding: 8px 5px;
+}
+
+button:nth-child(n+2):nth-child(-n+6) {
+  background: none;
+  border: none;
+  padding: 8px 8px;
+} */
+
+/* Stretch */
+/*  transition: [transition-property] [transition-duration]
+                [transition-timing-function] [transition-delay]; */
+button {
+  height: 35px;
+  width: 70px;
+  background-color: rgb(74, 123, 17);
+  border: none;
+  padding: 8px 15px;
+  color: white;
+
+  transition: all 1s;
+}
+
+button:hover {
+  background: green;
+  padding: 20px;
+  height: 70px;
+  width: 180px;
+}
